@@ -1,0 +1,27 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+## Build / publish output
+[Dd]ebug/
+[Rr]elease/
+publish/
+artifacts/
+
+## Local config & secrets — never commit real Intacct credentials
+appsettings.json
+appsettings.*.json
+!appsettings.example.json
+*.env
+.env
+## Editor/tooling backups of the above (these would otherwise slip past the rules above)
+*.bak
+*.orig
+*~
+
+## Rider / VS Code
+.idea/
+.vscode/
